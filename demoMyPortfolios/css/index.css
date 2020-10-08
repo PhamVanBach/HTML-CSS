@@ -1,0 +1,471 @@
+/* form of css:
+    /*positioning */
+    /* display & box model */
+    /* color */
+    /* text */
+    /* Other: transition & animation*/
+*/
+
+body{
+    width: 100%;
+    height: 100%;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    color: #141c3a;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* //nav */
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top .top__sub__content{
+    /* display & box model */
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    padding: 2rem 0px;
+    
+    /* text */
+    font-size: 1.5rem;
+}
+.top .top__sub__content .top__sub__about__content{
+    padding: 16px 18px;
+}
+.top .top__sub__content img{
+    display: flex;
+
+}
+.top .top__sub__content nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.top .top__sub__content nav ul li{
+    display: flex;
+    list-style-type: none;
+
+    padding: 8px 18px;
+}
+.top .top__sub__content nav ul button{
+    /* display & box model */
+    width: 9rem;
+    height: 3rem;
+    border: 0.15rem solid #7510F7;
+    border-radius: 2rem;
+    
+    /*color*/
+    background-color: transparent;
+    color: #7510F7;
+
+    /* text */
+    font-size: 1.5rem;
+    /* other */
+    transition: 0.3s;
+
+}
+.top .top__sub__content nav ul button:hover{
+    color: aliceblue;
+    background-color: #7510F7;
+    transform: scale(1);
+}
+
+.top .top__sub__content img{
+    width: 129px;
+    height: 56.5px;
+}
+
+/* //end nav */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* content and avatar */
+
+.content{
+    text-align: center;
+    padding: 3rem;
+    /* word-spacing: 0.3rem; */
+}
+.inf__avatar{
+    padding: 2rem;
+}
+.inf__avatar img{
+    margin: 2rem 0px;
+}
+.content h1{
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
+    font-weight: 900;
+}
+.content h3{
+    /* positioning */
+
+    /* display & box model */
+    margin-bottom: 2rem;
+    
+    /* color */
+    color: rgba(10, 10, 10, 0.9);
+
+    /* text */
+    font-weight: normal;
+    
+}
+
+/* :end content and avatar */
+
+/* //hero */
+.top__hero{
+    text-align: center;
+}
+.top__hero img{
+    margin-bottom: 0;
+    margin-bottom: -5px;
+}
+/* end hero */
+
+/* about myself */
+.about__myself{
+    /* positioning */
+    
+    /* display & box model */
+    display: flex;
+    justify-content: center;
+
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+    height: 40rem;
+
+    /* color */
+    background-color: #7510F7;
+    color: white;
+ 
+    /* text */
+
+    /* Other: transition & animation */
+
+}
+.content__about__myself{
+    /* display & box model    */
+    width: 50rem;
+    margin-top: 10rem;
+
+    /* text */
+    text-align: center;
+}
+.content__about__myself h1{
+    margin-bottom: 2rem;
+}
+.content__about__myself h3{ 
+    font-weight: normal;
+}
+/* end about myself */
+
+/* what i do */
+.contain_what_i_do{
+    display: flex;
+    justify-content: center;    
+}
+.contain_what_i_do .what_i_do{
+    display: flex;
+    justify-content: center;
+
+    margin-top: -10rem;
+    width: 60%;  
+}
+
+.contain_what_i_do .sub_what_i_do{
+    /*positioning */
+
+    /* display & box model */
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30rem;
+    height: 50rem;
+
+    /* color */
+    background-color: white;
+    /* text */
+
+    /* Other: transition & animation*/
+}
+.contain_what_i_do .what_i_do .sub_what_i_do h1{
+    margin: 1rem 0px;
+    font-size: 1.5rem;
+}
+
+.contain_what_i_do .what_i_do .sub_what_i_do img{
+    margin: 4rem;
+
+}
+.contain_what_i_do .what_i_do .sub_what_i_do p{
+    font-size: 1rem;
+
+}
+.contain_what_i_do .what_i_do .sub_what_i_do .how_i_feel{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contain_what_i_do .what_i_do .sub_what_i_do .my_thinking{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.contain_what_i_do .what_i_do .sub_what_i_do .content_thing_about_title{
+    margin-top: 0px;
+    margin-bottom: 3rem;
+}
+.contain_what_i_do .what_i_do .sub_what_i_do ul{
+    /*positioning */
+    /* display & box model */
+
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    /* color */
+    /* text */
+    list-style-type: none;
+    text-align: center;
+ 
+    /* Other: transition & animation*/
+}
+.contain_what_i_do .what_i_do .sub_what_i_do li{
+    margin: 1rem;
+}
+.contain_what_i_do .what_i_do .sub_what_i_do .my_thinking{
+    color: #7510F7;
+
+}
+
+/* set boder for each item */
+.contain_what_i_do .what_i_do .left_box{
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem 0 0 0.5rem;
+    box-shadow: 0.1r #888888;
+}
+.contain_what_i_do .what_i_do .middle_box{
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.contain_what_i_do .what_i_do .right_box{
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+/* end what i do */
+
+/* my recent work */
+.my_recent_work{
+    
+  /* display & box model */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8rem 2rem;
+
+}
+.my_recent_work h1{
+    /* margin-top: 8rem;     */
+    margin-bottom: 1rem;
+}
+
+.my_recent_work h3{
+    margin-bottom: 5rem;
+    
+    /* text */
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.my_recent_work h3 a{    
+    /* text */
+    text-decoration: none;
+    color: #7510F7;
+}
+.my_recent_work .main_grid_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.my_recent_work .main_content{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 0.5em;
+    margin: 8px 8px;
+
+    background-image: url("IMG_4650.jpg");
+    background-size: cover;
+}
+
+.my_recent_work .my_recent_work_overlay{
+    
+    /* display & box model */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+    /* color */
+    background-color: rgba(0, 0, 0);
+    color: seashell;
+
+    /* text */
+    font-size: large;
+
+    /* Other */
+     opacity: 0;
+     transition: all 0.3s;
+
+}
+.my_recent_work .main_content .my_recent_work_overlay .my_recent_work_overlay_1{
+    margin: 0.5rem 2rem;
+    font-size: 0.8em;
+    text-align: center;
+    transition: all 0.3s;
+}
+.my_recent_work .main_content:hover .my_recent_work_overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+ 
+.my_recent_work .main_content .my_recent_work_overlay .my_recent_work_overlay_1 button{
+    
+    width: 12em;
+    height: 2em;
+    border: 0.2em solid  #7510F7;
+    border-radius: 1em;
+
+    /* color: ; */
+    background-color: transparent;
+    /* text */
+    font-size: 1em;
+    color: aliceblue;
+
+    /* other */
+    transition: 0.3s;
+}
+.my_recent_work .main_content .my_recent_work_overlay .my_recent_work_overlay_1 button:hover{
+    
+    background-color: #7510F7;
+    transform: scale(1);
+}
+
+.my_recent_work .btn_see_more img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+.my_recent_work .btn_see_more .btn_recent{
+    
+    width: 15em;
+    height: 3em;
+    border: 0.15em solid  #7510F7;
+    border-radius: 2em;
+
+    margin-top: 5em;
+
+    /* color: ; */
+    background-color: transparent;
+    /* text */
+    font-size: 1em;
+    color: #7510F7;
+
+    /* other */
+    transition: 0.3s;
+}
+.my_recent_work .btn_recent:hover{
+    color: aliceblue;
+    background-color: #7510F7;
+    transform: scale(1);
+}
+
+/* end my recent work */
+
+/* footer */
+.about_footer{
+    font-size: 2em;
+
+}
+
+.about_footer i{
+    font-size: 1.5em;
+
+}
+
+.contact_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_footer .contact_me i{
+    font-size: 0.5em;
+    width: 2rem;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.5em;
+    border: 0.1em solid white;
+    border-radius: 50%;
+}
+
+.about_footer .contact_me i:hover {
+    color: #7510F7;
+    background-color: white;
+}
+
+/* responsive */
+
+/* mobile and tablet < 1024px */
+@media only screen and (max-width : 64em){
+
+}
+
+/* moblie: width < 740px; */
+@media only screen and (max-width: 46.1875em){
+    .text-test{
+        color: red;
+    }
+
+}
+
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 64em){
+
+    .contain_what_i_do .what_i_do{
+        width: 95%;  
+    }
+    .my_recent_work .main_grid_item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .my_recent_work .main_content{
+        width: 25rem;
+        height: 20rem;
+    }
+    
+}
